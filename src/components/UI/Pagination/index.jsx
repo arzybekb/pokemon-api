@@ -27,8 +27,5 @@ export default Pagination
 const Flexer = styled.div`
    display: flex;
    justify-content: center;
-   @media screen and (max-width: 600px) {
-      max-width: 100%;
-      width: 5rem;
-   }
+   margin: 1rem 0;
 `
