@@ -52,6 +52,7 @@ const Card = styled.div`
    overflow: hidden;
    height: 100%;
    padding: 3rem 1rem 3rem 3rem;
+   margin-top: 1rem;
    position: relative;
    display: flex;
    align-items: center;
