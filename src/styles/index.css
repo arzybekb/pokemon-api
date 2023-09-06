@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   --bg-color: rgba(255, 255, 255, 0.75);
+   font-family: Poppins, sans-serif;
+   background-image: linear-gradient(0deg, var(--bg-color), var(--bg-color)),
+      url('../assets/images/bg-image.jpg');
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+a {
+   text-decoration: none;
+}
+.type-normal {
+   --color: #c2c2a1;
+}
+.type-flying {
+   --color: #bab0d5;
+}
+.type-ghost {
+   --color: #735797;
+}
+.type-dark {
+   --color: #333;
+}
+.type-steel {
+   --color: #ccccde;
+}
+.type-ground {
+   --color: #b1736c;
+}
+.type-poison {
+   --color: #7c538c;
+}
+.type-grass {
+   --color: #48d0b0;
+}
+.type-fire {
+   --color: #fb6c6c;
+}
+.type-electric {
+   --color: #ffd86f;
+}
+.type-fairy {
+   --color: #f469a9;
+}
+.type-bug {
+   --color: #c3ce75;
+}
+.type-fighting {
+   --color: #d6b591;
+}
+.type-water {
+   --color: #609fb5;
+}
+.type-psychic {
+   --color: #9b7fa6;
+}
+
+.type-ice {
+   --color: #7fccec;
+}
+
+.type-rock {
+   --color: #a6aab6;
+}
+
+.type-dragon {
+   --color: #f9be00;
+}
+
+@keyframes fill {
+   from {
+      width: 0;
+   }
+}
